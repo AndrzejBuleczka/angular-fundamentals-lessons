@@ -16,8 +16,8 @@ import { FormsModule } from '@angular/forms';
       <textarea id="body" [(ngModel)]="body"></textarea>
     </section>
     <section>
-        <p>Display {{title}}</p>
-        <p>Display {{body}}</p>
+        <p>{{title}}</p>
+        <p>{{body}}</p>
        </section>
   </article>
 `,
